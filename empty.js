@@ -25,5 +25,5 @@ d3.select("body")
     .enter()
     .append("h2")
     .text(function(d) { return d; })
-    // .attr() // HTML 속성 지정.
-    .style("color", "red") // css 프로퍼티 지정
+    // .attr() // HTML 속성 지정. DOM의 속성값 정함.
+    .style("color", "red") // css 프로퍼티 지정. css 스타일 직접 적용.
